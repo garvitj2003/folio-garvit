@@ -11,7 +11,7 @@ export default function Home() {
           <div className="w-full h-[620px] sticky top-14"><Profilecard/></div>
           </div>
           <div className="col-span-2 flex">
-          </div>
+        </div>
         </div>
       </div>
     </div>
