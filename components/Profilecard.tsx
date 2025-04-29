@@ -29,10 +29,10 @@ export default function Profilecard() {
       </svg>
       <div className="relative w-full h-full flex flex-col items-center p-8 justify-between">
         <div className="w-full flex flex-col items-center ">
-        <div className="relative w-[240px] h-[284px] rounded-2xl bg-[radial-gradient(circle_at_90%_0%,_#7a2504,_#f05d0a)] shadow-xl overflow-hidden">
+        <div className="relative w-[240px] h-[284px] rounded-2xl bg-[radial-gradient(circle_at_90%_0%,_#9c2200,_#cc4405)] shadow-xl overflow-hidden">
           <img 
             src="/profile.png" 
-            className="absolute left-0 w-full object-contain -translate-y-5 filter  contrast-120 saturate-20 brightness-90" 
+            className="absolute left-0 w-full object-contain -translate-y-5 filter contrast-120 " 
           />
         </div>
           <h1 className="text-4xl font-bold mt-4 text-[#151312] font-poppins">Garvit Jain</h1>
