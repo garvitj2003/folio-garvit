@@ -38,7 +38,7 @@ export default function Navbar() {
 
   return (
     <div className="flex justify-center w-full">
-      <nav className="w-1/4 shadow-md rounded-2xl m-6 bg-[#221f1e]">
+      <nav className="md:w-1/4 w-[75%] shadow-md rounded-2xl m-6 bg-[#221f1e]">
         <div className="flex justify-evenly items-center p-1 font-white">
           {navItems.map((item, index) => (
             <div 
