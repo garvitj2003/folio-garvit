@@ -9,8 +9,8 @@ export default function Home() {
 
         <div className="w-full grid grid-cols-1 gap-y-8 md:grid-cols-3 md:gap-24 mt-10 md:mt-14">
           {/* ProfileCard */}
-          <div className="col-span-1 md:block">
-            <div className="w-full h-auto md:h-[620px] md:sticky md:top-14">
+          <div className="col-span-1 md:block flex justify-center">
+            <div className="w-full max-w-[370px] h-auto md:h-[620px] md:sticky md:top-14">
               <Profilecard />
             </div>
           </div>
@@ -18,7 +18,18 @@ export default function Home() {
           {/* Main content */}
           <div className="col-span-2">
             {/* Add your main content here */}
-            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita minima beatae facere harum porro dolores voluptatum nemo eveniet labore quibusdam unde repudiandae ipsa fuga, perspiciatis explicabo id modi at quidem.</h1>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quam alias voluptates, iste praesentium nihil sed fuga facilis dignissimos necessitatibus adipisci! Numquam possimus dignissimos, ad quasi perferendis ipsam ut autem.</h1>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quam alias voluptates, iste praesentium nihil sed fuga facilis dignissimos necessitatibus adipisci! Numquam possimus dignissimos, ad quasi perferendis ipsam ut autem.</h1>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quam alias voluptates, iste praesentium nihil sed fuga facilis dignissimos necessitatibus adipisci! Numquam possimus dignissimos, ad quasi perferendis ipsam ut autem.</h1>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quam alias voluptates, iste praesentium nihil sed fuga facilis dignissimos necessitatibus adipisci! Numquam possimus dignissimos, ad quasi perferendis ipsam ut autem.</h1>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quam alias voluptates, iste praesentium nihil sed fuga facilis dignissimos necessitatibus adipisci! Numquam possimus dignissimos, ad quasi perferendis ipsam ut autem.</h1>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quam alias voluptates, iste praesentium nihil sed fuga facilis dignissimos necessitatibus adipisci! Numquam possimus dignissimos, ad quasi perferendis ipsam ut autem.</h1>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quam alias voluptates, iste praesentium nihil sed fuga facilis dignissimos necessitatibus adipisci! Numquam possimus dignissimos, ad quasi perferendis ipsam ut autem.</h1>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quam alias voluptates, iste praesentium nihil sed fuga facilis dignissimos necessitatibus adipisci! Numquam possimus dignissimos, ad quasi perferendis ipsam ut autem.</h1>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quam alias voluptates, iste praesentium nihil sed fuga facilis dignissimos necessitatibus adipisci! Numquam possimus dignissimos, ad quasi perferendis ipsam ut autem.</h1>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quam alias voluptates, iste praesentium nihil sed fuga facilis dignissimos necessitatibus adipisci! Numquam possimus dignissimos, ad quasi perferendis ipsam ut autem.</h1>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quam alias voluptates, iste praesentium nihil sed fuga facilis dignissimos necessitatibus adipisci! Numquam possimus dignissimos, ad quasi perferendis ipsam ut autem.</h1>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quam alias voluptates, iste praesentium nihil sed fuga facilis dignissimos necessitatibus adipisci! Numquam possimus dignissimos, ad quasi perferendis ipsam ut autem.</h1>
           </div>
         </div>
       </div>

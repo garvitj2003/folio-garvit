@@ -1,12 +1,6 @@
-"use client";
 import { FaLinkedinIn,FaGithub   } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6"
-
-const socialButton = (icon: React.ReactNode) => {
-  return (<button className="flex flex-col cursor-pointer items-center justify-center p-2 hover:bg-neutral-200 rounded-lg transition-colors duration-500 ease-out ">
-  <div className="text-orange-400/75">{icon}</div>
-</button>);
-}
+import SocialButton from "./SocialButton";
 
 
 export default function Profilecard() {
@@ -40,9 +34,9 @@ export default function Profilecard() {
         <div className="w-full flex items-center flex-col" >
           <h3 className="text-lg text-center text-[#6a6b6e] font-poppins font-medium">Lorem ipsum dolor sit amet  elit. Dolor voluptatem  at laborum </h3>
           <div className="w-[80%] flex items-center justify-evenly mt-2">
-            {socialButton(<FaXTwitter size={22} />)}
-            {socialButton(<FaGithub size={22} />)}
-            {socialButton(<FaLinkedinIn size={22} />)}
+            <SocialButton><FaXTwitter size={22} /></SocialButton>
+            <SocialButton><FaGithub size={22} /></SocialButton>
+            <SocialButton><FaLinkedinIn size={22} /></SocialButton>
           </div>
         </div>        
       </div>
