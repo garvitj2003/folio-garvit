@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 const poppins = Poppins({
   variable: "--font-poppins",
-  weight: ["400","500", "600","700","800"], // Regular and Bold
+  weight: ["400", "500", "600", "700", "800"], // Regular and Bold
   subsets: ["latin"],
 });
 
@@ -30,6 +30,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preload" as="image" href="/profile.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
       >
